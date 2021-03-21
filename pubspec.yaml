@@ -1,19 +1,24 @@
+---
 name: sheetrem
 description: App to store when you changed the sheets
 publish_to: none
 version: 1.0.0+1
 environment:
   sdk: '>=2.12.0 <3.0.0'
+
 dependencies:
+  flutter_bloc: ^7.0.0
   flutter:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
 
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
   lint: ^1.5.3
+
 flutter:
   uses-material-design: true
   assets:
